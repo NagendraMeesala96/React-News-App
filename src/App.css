@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: coral;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.body{
+  background-color: #f1f1f1;
+}
+h2{
+  text-align: left;
+  margin : 20px;
+  padding: 20px;
+  text-align: justify;
+}
+.details{
+  text-align: left;
+  margin-left: 42px;
+  display: flex;
+}
+.border-white{
+  text-align: left;
+}
+.icon{
+  background-color: #3b5998;
+  margin: 5px;
+}
+
+.card-text{
+  text-align: justify;
+  margin-right: 30px;
+}
+.imgs{
+  margin: 20px;
+}
+.read-more{
+ position: relative;
+ right: 210px;
+ margin: 10px;
+ top:-15px;
+}
+
+.nav-bar{
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  font-size: 22px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.page{
+  display: flex;
+  justify-content: center;
+}
+.most-popular{
+  height: 300px;
+}
+img{
+  border-radius: 10px;
+}
+.categories{
+  text-align: left;
+}
+.footer{
+  background-color: black;
+  padding: 5px;
+  color: white;
+}
+p{
+  text-align: justify;
+  cursor: pointer;
+}
+.footer-txt{
+  text-align: center;
+}
+.b{
+  margin-top: 10px;
+  border-left: 10px solid tomato;
+  width: 900px;
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  background-color: lightgray;
+  box-shadow: 5px 5px 5px 5px white;
+}
+.card{
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+.no-results{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+.active{
+  background-color: black;
+}
